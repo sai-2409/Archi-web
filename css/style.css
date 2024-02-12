@@ -109,3 +109,34 @@ p {
    font-weight: 200;
 }
 /* Start coding for section with main background */
+
+/* Start coding for services section */
+.services{
+   background-color: rgba(37, 77, 77, 0.20);
+   padding-top: 16px;
+   padding-bottom: 66px;
+}
+.services__container-title{
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 43px;
+}
+.services__content{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.services__content-min{
+   font-family: "Playfair Display";
+   font-size: 27px;
+   font-weight: 900;
+   line-height: normal;
+   margin-bottom: 9px;
+}
+.services__content-text1, .services__content-text2{
+   font-family: "Playfair Display";
+   font-size: 16px;
+   font-weight: 400;
+   line-height: normal;
+}
+/* Finish coding for services section */
