@@ -144,6 +144,7 @@ p {
 /* Start coging section board */
 .board{
    padding-top: 76px;
+   margin-bottom: 95px;
 }
 .board__content{
    display: flex;
@@ -168,3 +169,26 @@ p {
    font-weight: 600;
 }
 /* Finish coging section board */
+
+/* Start coding section grid */
+.projects__container-title{
+   margin-bottom: 71px;
+}
+.projects__grid{
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+   gap: 104px;
+}
+.projects__grid-item{
+   text-align: center;
+}
+.projects__grid-picture{
+   border-radius: 10px;
+   background: #e0e0e0;
+   box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+.projects__grid-text{
+   margin-top: 13px;
+}
+/* Finish coding section grid */
