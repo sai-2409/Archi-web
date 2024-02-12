@@ -171,6 +171,9 @@ p {
 /* Finish coging section board */
 
 /* Start coding section grid */
+.projects{
+   margin-bottom: 90px;
+}
 .projects__container-title{
    margin-bottom: 71px;
 }
@@ -192,3 +195,39 @@ p {
    margin-top: 13px;
 }
 /* Finish coding section grid */
+
+/* start coding section test */
+.test{
+   padding-bottom: 150px;
+}
+.test__container-title{
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 78px;
+}
+.test__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.test__content-item{
+   display: flex;
+   align-items: center;
+}
+.test__content-picture{
+   margin-right: 21px;
+}
+.test__content-right-title{
+   font-family: "Playfair Display";
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+.test__content-right-text{
+   font-family: "Playfair Display";
+   font-size: 17px;
+   font-weight: 400;
+   max-width: 307px;
+}
+/* finish coding section test */
+
