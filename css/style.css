@@ -231,3 +231,51 @@ p {
 }
 /* finish coding section test */
 
+/* start coding footer of a website */
+.footer{
+   padding-top: 47px;
+   padding-bottom: 45px;
+   background-color: var(--dark__gray);
+}
+.footer__container{
+   display: flex;
+   justify-content: space-between;
+}
+.footer__text{
+   color: #FAFAFA;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 29px;
+   max-width: 287px;
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+.footer__icons img{
+   margin-right: 30px;
+}
+.footer__icons img:hover{
+   cursor: pointer;
+   opacity: 80%;
+}
+.footer-title{
+   color: #FAFAFA;
+   font-size: 24px;
+   font-weight: 900;
+   margin-bottom: 18px;
+}
+.footer-text1, .footer-text2, .footer-text3{
+   color: #FAFAFA;
+   font-size: 17px;
+   max-width: 200px;
+   font-weight: 400;
+   line-height: 21px;
+}
+.footer-text1{
+   margin-bottom: 20px;
+}
+.footer-text2{
+   margin-bottom: 20px;
+}
+/* finish coding footer of a website */
+
+
