@@ -140,3 +140,31 @@ p {
    line-height: normal;
 }
 /* Finish coding for services section */
+
+/* Start coging section board */
+.board{
+   padding-top: 76px;
+}
+.board__content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.board__content-img{
+   
+}
+.board__content-right-text{
+   font-family: "Playfair Display";
+   font-size: 31px;
+   line-height: normal;
+   max-width: 456px;
+   margin-top: 26px;
+   margin-bottom: 36px;
+}
+.board__content a{
+   text-decoration: none;
+   font-size: 24px;
+   color: var(--lighter__gray);
+   font-weight: 600;
+}
+/* Finish coging section board */
