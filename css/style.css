@@ -308,23 +308,45 @@ p {
 /* finish coding responsive for 1240 screens */
 
 /* start coding responsive for 967px */
-@media screen and(max-width: 967px){
+@media screen and (max-width: 967px){
    .common__container{
       max-width: 900px;
       margin: 0 auto;
+   }
+   .bg__content-card{
+      width: 450px;
+      height: 350px;
+      padding-top: 100px;
+      padding-left: 40px;
+   }
+   .bg__content-card-title{
+      font-size: 35px;
+   }
+   .bg__content-card-text{
+      font-size: 19px;
+      min-width: 200px;
    }
 }
 /* finish coding responsive for 967px */
 
 /* start coding screen responsive for 760px */
-@media screen and(max-width: 760px){
-
+@media screen and (max-width: 760px){
+   .common__container{
+      max-width: 700px;
+      margin: 0 auto;
+   }
+   .header__container-list li a{
+      font-size: 15px;
+   }
+   
 }
 /* finish coding screen responsive for 760px */
 
 /* start coding screen responsive for 500px */
 @media screen and(max-width: 500px){
-   ~
+   .common__container{
+      
+   }
 }
 /* finish coding screen responsive for 500px */
 
